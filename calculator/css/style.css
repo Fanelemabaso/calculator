@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #ff3b83;
+    border: none;
+    color: white;
+}
+
+.textview {
+    width: 202px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.bg{
+    background: linear-gradient(to right,#ff00006b,blue );
+    height: 1000px;
+}
